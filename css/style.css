@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+p{
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+/* share style */
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
