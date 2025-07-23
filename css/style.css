@@ -50,6 +50,9 @@ a{
 .display-flex{
   display: flex;
 }
+.orange-text{
+  color: rgb(233, 90, 8);
+}
 
 /* nav area style */
 
@@ -77,4 +80,16 @@ a{
   font-weight: 600;
   font-size: 22px;
   color: #000000;
+}
+
+/* banner area style */
+
+.banner{
+  margin: 120px auto;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.left-banner-area h2{
+  font-size: 65px;
+  margin-bottom: 20px;
 }

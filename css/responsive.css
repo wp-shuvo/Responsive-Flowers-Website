@@ -1,0 +1,42 @@
+@media screen and (max-width:576px) {
+
+  .nav-link{
+    display: none;
+  }
+  .main-nav,
+  .left-banner-area{
+    margin: 20px;
+  }
+ .banner{
+    flex-direction: column-reverse;
+  }
+  .left-banner-area h2{
+    font-size: 40px;
+  }
+  .left-banner-area p{
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+  .main-nav, .banner{
+    flex-direction: column;
+  }
+  .nav-logo{
+    margin-bottom: 30px;
+  }
+ .banner{
+  margin: 40px 20px;
+ }
+
+  /* .image-area{
+    display: none;
+  } */
+
+}
