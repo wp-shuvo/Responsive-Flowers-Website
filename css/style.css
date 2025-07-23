@@ -20,7 +20,8 @@ h6{
 }
 
 p,
-a{
+a,
+li{
   font-family: "Inter", sans-serif;
   font-size: 22px;
   color: hsla(0, 0%, 0%, 0.5);
@@ -124,4 +125,26 @@ a{
   font-weight: 800;
   display: block;
   margin-bottom: 10px;
+}
+/* Flower & Plants Lover style */
+
+.plants-lover{
+  margin: 150px auto ;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+/* .right-side-textarea{
+  max-width: 540px;
+} */
+.plants-lover .right-side-textarea h2{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+ul{
+    list-style-position: outside;
+}
+ul li{
+  margin-bottom: 20px;
+  margin-left: 28px;
 }
