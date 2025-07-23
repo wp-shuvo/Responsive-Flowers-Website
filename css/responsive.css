@@ -1,21 +1,37 @@
 @media screen and (max-width:576px) {
-
+/* header area */
   .nav-link{
     display: none;
   }
   .main-nav,
-  .left-banner-area{
+  .left-banner-area,
+  .top-text-area{
     margin: 20px;
   }
  .banner{
     flex-direction: column-reverse;
   }
-  .left-banner-area h2{
+  .left-banner-area h2,
+  .top-text-area{
     font-size: 40px;
   }
   .left-banner-area p{
     font-size: 18px;
   }
+  /* our plants area */
+  .plants{
+  margin: 50px auto;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ .plant-card img{
+  max-width: 200px;
+ }
+ .btn-prinary{
+  padding: 19px 42px;
+ }
 }
 
 
@@ -34,9 +50,13 @@
  .banner{
   margin: 40px 20px;
  }
-
-  /* .image-area{
-    display: none;
-  } */
+ 
+ .plants{
+  margin: 50px auto;
+  gap: 15px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 }

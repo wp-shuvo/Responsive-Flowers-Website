@@ -22,7 +22,6 @@ h6{
 p,
 a{
   font-family: "Inter", sans-serif;
-  font-weight: 400;
   font-size: 22px;
   color: hsla(0, 0%, 0%, 0.5);
 }
@@ -31,6 +30,9 @@ a{
 .container{
   max-width: 1140px;
   margin: 0 auto;
+}
+.text-center{
+  text-align: center;
 }
 
 .btn-prinary{
@@ -92,4 +94,34 @@ a{
 .left-banner-area h2{
   font-size: 65px;
   margin-bottom: 20px;
+}
+
+/* Our plants area style */
+.top-text-area{
+  max-width: 888px;
+  margin: auto;
+}
+.top-text-area h3{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.plants{
+  margin: 50px auto;
+  gap: 15px; 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.plant-card h5{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.plant-card span{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  margin-bottom: 10px;
 }
