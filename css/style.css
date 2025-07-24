@@ -134,9 +134,7 @@ li{
   align-items: center;
   gap: 50px;
 }
-/* .right-side-textarea{
-  max-width: 540px;
-} */
+
 .plants-lover .right-side-textarea h2{
   font-size: 60px;
   margin-bottom: 20px;
@@ -147,4 +145,69 @@ ul{
 ul li{
   margin-bottom: 20px;
   margin-left: 28px;
+}
+.trusted-badge{
+  position: absolute;
+  margin-top: -740px;
+  margin-left: 360px;
+
+}
+.trusted-badge img{
+  width: 286px;
+  height: 286px;
+  filter: drop-shadow( 0px 10px  hsla(0, 0%, 0%, 0.12));
+}
+
+ /* Latest  Deals style */
+.deals h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.deals p{
+  margin-bottom: 100px;
+}
+
+/* Join the colorful Bunch Start */
+
+#join-section{
+  background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 199px 305px;
+  margin-bottom: 50px;
+}
+#join-section h2{
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+#join-section .subscribe-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#join-section .subscribe-area input{
+  width: 644px;
+  padding: 21.8px 20px;
+  outline: none;
+}
+#join-section .subscribe-area input::placeholder{
+  font-size: 16px;
+  color: hsla(0, 0%, 0%, 0.5);
+  
+}
+
+#join-section .subscribe-area button{
+  margin-left: -.1px;
+  background-color: #E95A08;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  padding: 19px 80px;
+  border: 2px solid #E95A08;
+  cursor: pointer;
+}
+#join-section .subscribe-area button:hover{
+  color: #000000;
 }
