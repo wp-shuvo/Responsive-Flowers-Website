@@ -211,3 +211,35 @@ ul li{
 #join-section .subscribe-area button:hover{
   color: #000000;
 }
+
+/* footer area style */
+footer {
+  margin: 50px 180px;
+  justify-content: space-evenly;
+  align-items: start;
+}
+footer #footer-text{
+  max-width: 360px;
+}
+#footer-text img{
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+footer .footer-link ul{
+  list-style: none;
+}
+footer .footer-link li{
+  line-height: 35px;
+}
+footer .footer-link li a:hover{
+  color: #E95A08;
+}
+footer .footer-link a{
+  text-decoration: none;
+}
+
+.footer-logo-area{
+  gap: 30px;
+  align-items: center;
+  cursor: pointer;
+}
