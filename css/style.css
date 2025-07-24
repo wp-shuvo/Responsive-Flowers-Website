@@ -159,6 +159,10 @@ ul li{
 }
 
  /* Latest  Deals style */
+ .deals{
+  justify-content: space-between;
+  gap: 20px;
+ }
 .deals h2{
   font-size: 50px;
   margin-bottom: 20px;
@@ -166,6 +170,80 @@ ul li{
 .deals p{
   margin-bottom: 100px;
 }
+
+ 
+.display-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.deal-column-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* --- COMMON PROMO STYLES --- */
+.promo-box {
+  background-size: cover;
+  background-position: center;
+  padding: 24px;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 200px;
+}
+
+/* Common link styles */
+.promo-box a {
+  color: white;
+  text-decoration: underline;
+}
+
+.promo-box h3, .promo-box h4, .promo-box p {
+  margin: 4px 0;
+  color: #fff;
+}
+
+
+/* Left column boxes */
+.bloom-plant-dis, .ana-plant-dis {
+  font-size: 20px;
+}
+
+.bloom-plant-dis a, .ana-plant-dis a {
+  font-size: 20px;
+}
+
+/* Right column box */
+.zabo-plant-dis {
+  flex: 2;
+  font-size: 50px;
+}
+
+.zabo-plant-dis a {
+  font-size: 50px;
+}
+
+/* background images */
+.bloom-plant-dis {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/deal-bloom.png);
+}
+
+.ana-plant-dis {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/deal-ana.png);
+}
+
+.zabo-plant-dis {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/deal-zabo.png);
+}
+
 
 /* Join the colorful Bunch Start */
 

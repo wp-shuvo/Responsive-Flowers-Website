@@ -66,6 +66,18 @@
 .deals p{
   font-size: 22px;
 }
+#promo-area{
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+.zabo-plant-dis {
+    font-size: 30px; 
+  }
+.zabo-plant-dis a {
+    font-size: 30px;
+  }
+
 /* Join the colorful Bunch Start */
 #join-section{
   padding: 80px;
@@ -81,6 +93,7 @@
 #join-section .subscribe-area button{
    padding: 19px 25px;
 }
+
 /* footer area  */
  footer {
   margin: 20px;
@@ -147,6 +160,21 @@
 #join-section{
   padding: 100px;
 }
+
+ /* Latest  Deals style */
+
+#promo-area{
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+.zabo-plant-dis {
+    font-size: 30px; 
+  }
+.zabo-plant-dis a {
+    font-size: 30px;
+  }
+  
 /* footer area  */
  footer {
   margin: 30px;
